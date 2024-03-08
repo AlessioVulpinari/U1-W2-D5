@@ -1,1 +1,172 @@
-/* Your styles here */
+/* GENERAL */
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: #e9edee;
+}
+
+.white_bg {
+  background-color: white;
+}
+
+.darkBlue_bg {
+  background-color: #222f3f;
+}
+
+.blue_bg {
+  background-color: #364757;
+}
+
+.orange_bg {
+  background-color: #f46600;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.section {
+  margin-top: 1.5%;
+  border-bottom: 1.5%;
+}
+
+.white_text {
+  color: white;
+}
+
+.width_98 {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h3_text {
+  display: inline;
+
+  font-weight: bold;
+  font-size: 1em;
+
+  padding-left: 1.5%;
+}
+
+.p_text {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #145156;
+
+  display: inline;
+
+  padding-left: 0.5%;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  font-size: 0.8em;
+  color: white;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+nav {
+  padding: 0.5%;
+}
+
+nav p {
+  display: inline;
+  padding-left: 1.5%;
+}
+
+#logo {
+  max-width: 10%;
+  min-width: 10%;
+  padding-left: 1.8%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+/* MAIN */
+
+/* FIRST SECTION */
+
+section #holiday p {
+  padding-bottom: 1.5%;
+}
+
+#gift_card {
+  font-size: 0.8em;
+  margin-top: 1.8%;
+  margin-bottom: 1.8%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+#holiday {
+  background-image: url(/assets/images/bg-image.png);
+  background-repeat: repeat;
+  padding-top: 4%;
+  padding-bottom: 2.5%;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+
+  padding-bottom: 1.5%;
+}
+
+/* SECOND SECTION */
+
+.img_section {
+  display: inline-block;
+  width: 23%;
+
+  margin-right: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.img {
+  width: 100%;
+  max-height: 250px;
+  min-height: 250px;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+main section:nth-of-type(2) article:first-of-type {
+  padding-top: 1%;
+}
+
+/* THIRD and FOURTH SECTION */
+
+.large_img {
+  width: 100%;
+  object-fit: cover;
+
+  margin-bottom: 0.3%;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 2%;
+}
+
+footer nav a {
+  text-decoration: underline;
+}
+
+footer img {
+  max-width: 10%;
+  min-width: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
